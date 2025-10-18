@@ -1,4 +1,4 @@
-name: Sync upstream repository
+name: SyncFromUpstream
 
 on:
   schedule:
