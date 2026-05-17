@@ -1457,7 +1457,7 @@ class Event(object):
 
         用于获取群精华消息列表
 
-        支持平台：`OneBotV11`
+        支持平台：OneBotV11
         支持协议：Lagrange、NapCat、LLOneBot
 
         Args:
@@ -1596,7 +1596,7 @@ class Event(object):
         - LLOneBot 不使用`approve`参数
 
         Args:
-            flag: 加好友请求的`flag`（需下事件的数据中获得）
+            flag: 加好友请求的`flag`（需从事件的数据中获得）
             approve: 是否同意请求 (default: True)
         """
         if remote:
